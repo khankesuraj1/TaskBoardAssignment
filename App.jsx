@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import TaskBoard from "./components/TaskBoard";
+import TaskBoard from "./TaskBoard";
 
 const App = () => {
   const [tasks, setTasks] = useState(() => {
